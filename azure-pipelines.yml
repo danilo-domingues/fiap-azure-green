@@ -18,3 +18,10 @@ jobs:
     inputs:
       path: $(System.DefaultWorkingDirectory)/artifact
       artifact: $(project_name)
+
+- job: Restore
+  steps:
+  - script: |
+      pwd && ls -la
+      dotnet restore
+    displayName: Restore
