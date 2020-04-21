@@ -1,0 +1,9 @@
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure para Estudantes(039815ad-a7ab-4597-b4d9-52175fcd19ed)'
+    appType: 'webAppLinux'
+    WebAppName: 'fiap-azure-green-api'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    RuntimeStack: 'DOTNETCORE|2.2'
+    StartupCommand: 'systemctl start fiap-azure-green-api'
