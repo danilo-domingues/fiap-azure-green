@@ -1,7 +1,23 @@
+variables:
+  project_name: 'fiap-azure-green-api'
+  netcore_version: '2.2'
+  project_test: 'fiap-azure-green-api-tests'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
+jobs:
+- job: Build
+  steps:
+  - script: |
+      pwd && ls -la
+      dotnet restore 
+      dotnet publish -c Release -o bin/Release/netcoreapp$(netcore_version)
+      mkdir artifact
+      cp -r $(project_name)/bin/Release/netcoreapp$(netcore_version) artifact/$(Build.SourceBranchName)
+    displayName: Build Application
+  - task: PublishPipelineArtifact@1
+    displayName: Store Application Artifact
+    inputs:
+      path: $(System.DefaultWorkingDirectory)/artifact
+      artifact: $(project_name)
 
 - task: AzureRmWebAppDeployment@4
   inputs:
