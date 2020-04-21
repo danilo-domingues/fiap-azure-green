@@ -1,0 +1,14 @@
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/bin/Debug/netcoreapp2.2/fiap-azure-green-api.deps.json
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/bin/Debug/netcoreapp2.2/fiap-azure-green-api.runtimeconfig.json
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/bin/Debug/netcoreapp2.2/fiap-azure-green-api.runtimeconfig.dev.json
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/bin/Debug/netcoreapp2.2/fiap-azure-green-api.dll
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/bin/Debug/netcoreapp2.2/fiap-azure-green-api.pdb
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.csprojAssemblyReference.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.csproj.CoreCompileInputs.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.RazorAssemblyInfo.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.RazorAssemblyInfo.cs
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.AssemblyInfoInputs.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.AssemblyInfo.cs
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.RazorTargetAssemblyInfo.cache
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.dll
+/Users/danilodominguesbarbosa/Documents/GitHub/fiap-azure-green/fiap-azure-green-api/obj/Debug/netcoreapp2.2/fiap-azure-green-api.pdb
