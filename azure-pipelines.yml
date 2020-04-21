@@ -32,5 +32,5 @@ jobs:
       azureSubscription: 'Azure para Estudantes(039815ad-a7ab-4597-b4d9-52175fcd19ed)'
       appType: 'webAppLinux'
       WebAppName: 'fiap-azure-green-api'
-      packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+      packageForLinux: $(System.DefaultWorkingDirectory)/artifact
       StartupCommand: 'doente run'
